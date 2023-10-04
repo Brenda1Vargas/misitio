@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <!-- Enlazar Bootstrap desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <style>
+        body {
+            background-color: #ffffff; /* Fondo blanco */
+            color: #000000; /* Texto negro */
+        }
+        .jumbotron {
+            background-image: url('https://cdn.pixabay.com/photo/2018/09/27/09/22/artificial-intelligence-3706562_1280.jpg');
+            background-size: cover;
+            color: #ffffff; /* Texto blanco */
+            padding: 100px;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        .jumbotron h1 {
+            background-color: rgba(88, 178, 175, 0.7); /* Color de fondo semitransparente */
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #58B2AF; /* Color del menú */
+        }
+        .container {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <a class="navbar-brand" href="equipo.html">Equipo</a>
+            <a class="navbar-brand" href="noticias.html">Noticias</a>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <h1>Mi Sitio Web</h1>
+        <!-- Efecto de marca de agua -->
+        <div style="position: relative;">
+            <img src="https://cdn.pixabay.com/photo/2018/09/27/09/22/artificial-intelligence-3706562_1280.jpg" alt="Imagen" style="opacity: 0.2;">
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <h2>¡Bienvenido a Mi Sitio Web!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+        <p>Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper.</p>
+        <p>Video:</p>
+        <!-- Video de YouTube -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/K5pkkuiyRzk" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Scripts de Bootstrap desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
